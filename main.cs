@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pakkoi
 {
@@ -10,7 +6,15 @@ namespace Pakkoi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Pakkoi!");
+            Console.WriteLine($"Hello Pakkoi!{Environment.NewLine}Would you like to enjoy with Pakkoi?");
+
+            var current = GetValue();
+            Console.WriteLine($"{current.name} is {current.value}");
+        }
+
+        static (string name, int value) GetValue()
+        {
+            return ("Member", 1);
         }
     }
 }
