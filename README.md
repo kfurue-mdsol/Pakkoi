@@ -1,2 +1,2 @@
 # Pakkoi
-Project Pakkoi.
+Hello, Project Pakkoi.
